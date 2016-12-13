@@ -14,6 +14,10 @@
 		63E8C3EE1DFFA91900AE5727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E8C3EC1DFFA91900AE5727 /* LaunchScreen.storyboard */; };
 		63E8C3F91DFFA91900AE5727 /* UserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8C3F81DFFA91900AE5727 /* UserDefaultsTests.swift */; };
 		63E8C4041DFFA91A00AE5727 /* UserDefaultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8C4031DFFA91A00AE5727 /* UserDefaultsUITests.swift */; };
+		63E8C4131DFFA94D00AE5727 /* UserDefaultsProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8C4121DFFA94D00AE5727 /* UserDefaultsProxy.swift */; };
+		63E8C4191DFFAA3400AE5727 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8C4181DFFAA3400AE5727 /* UserDefaultsKey.swift */; };
+		63E8C41C1DFFAB0A00AE5727 /* UserDefaultsSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8C41B1DFFAB0A00AE5727 /* UserDefaultsSubscripts.swift */; };
+		63E8C41E1DFFAB4F00AE5727 /* UserDefaultsArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8C41D1DFFAB4F00AE5727 /* UserDefaultsArchive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		63E8C3FF1DFFA91A00AE5727 /* UserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E8C4031DFFA91A00AE5727 /* UserDefaultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUITests.swift; sourceTree = "<group>"; };
 		63E8C4051DFFA91A00AE5727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E8C4121DFFA94D00AE5727 /* UserDefaultsProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsProxy.swift; sourceTree = "<group>"; };
+		63E8C4181DFFAA3400AE5727 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		63E8C41B1DFFAB0A00AE5727 /* UserDefaultsSubscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsSubscripts.swift; sourceTree = "<group>"; };
+		63E8C41D1DFFAB4F00AE5727 /* UserDefaultsArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsArchive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		63E8C3E21DFFA91900AE5727 /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				63E8C4111DFFA93500AE5727 /* UserDefaultsExtensions */,
 				63E8C3E31DFFA91900AE5727 /* AppDelegate.swift */,
 				63E8C3E51DFFA91900AE5727 /* ViewController.swift */,
 				63E8C3E71DFFA91900AE5727 /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				63E8C4051DFFA91A00AE5727 /* Info.plist */,
 			);
 			path = UserDefaultsUITests;
+			sourceTree = "<group>";
+		};
+		63E8C4111DFFA93500AE5727 /* UserDefaultsExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				63E8C4121DFFA94D00AE5727 /* UserDefaultsProxy.swift */,
+				63E8C4181DFFAA3400AE5727 /* UserDefaultsKey.swift */,
+				63E8C41B1DFFAB0A00AE5727 /* UserDefaultsSubscripts.swift */,
+				63E8C41D1DFFAB4F00AE5727 /* UserDefaultsArchive.swift */,
+			);
+			name = UserDefaultsExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E8C41C1DFFAB0A00AE5727 /* UserDefaultsSubscripts.swift in Sources */,
+				63E8C41E1DFFAB4F00AE5727 /* UserDefaultsArchive.swift in Sources */,
 				63E8C3E61DFFA91900AE5727 /* ViewController.swift in Sources */,
+				63E8C4131DFFA94D00AE5727 /* UserDefaultsProxy.swift in Sources */,
+				63E8C4191DFFAA3400AE5727 /* UserDefaultsKey.swift in Sources */,
 				63E8C3E41DFFA91900AE5727 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
